@@ -4,15 +4,12 @@ https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_
 using namespace std;
 int main()
 {
-  long long int Hashmat, opponent;
-  while(cin>>Hashmat>>opponent)
+  long long int Hashmat, opponent; // å®£å‘Šé•·æ•´æ•¸ Hashmat ï¼Œopponentï¼Œå› ç‚ºè¼¸å…¥ç¯„åœåˆ° 2^32 æ‰€ä»¥å¿…é ˆç”¨ long long int å­˜å–
+  // é€£çºŒè¼¸å…¥ Hashmat å’Œ opponent
+  while(cin>>Hashmat>>opponent) 
   {
+    // è¼¸å‡º Hashmat- opponent çš„çµ•å°å€¼
     cout<<abs(Hashmat-opponent)<<endl;
   }
 }
 
-
-¡°¬d¸ß©Ò¦³ÃD¥Ø¤Î¸Ñµª¦p¤U¡°
-https://jennaweng0621.pixnet.net/blog/post/403629785-CPE%E9%A1%8C%E7%9B%AE%E7%9B%AE%E9%8C%84%E5%8F%8A%E8%A7%A3%E7%AD%94
-¡°¬d¸ß¨ä¥LCPEÃD¥Ø¦p¤U¡°
-http://jennaweng0621.pixnet.net/blog/category/6372301
